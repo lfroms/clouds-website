@@ -2,7 +2,7 @@
   "name": "romsicki",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lfroms.github.io/clouds-website",
+  "homepage": "https://cloudsapp.romsicki.com",
   "dependencies": {
     "autobind-decorator": "^2.4.0",
     "classnames": "^2.2.6",
