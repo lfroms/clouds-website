@@ -10,7 +10,7 @@ export default class App extends React.PureComponent {
   render() {
     return (
       <>
-        <Helmet defaultTitle="Clouds App" titleTemplate="%s | Clouds App" />
+        <Helmet defaultTitle="Clouds" titleTemplate="%s | Clouds" />
         <Router>
           <div className={styles.App}>
             <Nav pages={NavItems.pages} />
