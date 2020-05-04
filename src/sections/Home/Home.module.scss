@@ -1,0 +1,43 @@
+@import '~styles/global';
+
+.Home {
+  > footer {
+    text-align: center;
+    margin-top: rem(40px);
+    padding-bottom: rem(40px);
+  }
+}
+
+.Layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: -40px;
+
+  @include breakpoint-before(medium) {
+    flex-direction: column;
+    padding: 0 rem(40px);
+    margin-top: 0;
+  }
+}
+
+.Content {
+  max-width: 470px;
+}
+
+.ScreenshotsContainer {
+  margin-left: 90px;
+
+  @include breakpoint-before(medium) {
+    margin-left: -40px;
+  }
+}
+
+.Caption {
+  margin-top: rem(46px);
+}
+
+.AppStore {
+  margin-top: rem(27px);
+}

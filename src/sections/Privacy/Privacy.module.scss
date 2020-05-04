@@ -1,0 +1,17 @@
+@import '~styles/global';
+
+.Privacy {
+  max-width: rem(700px);
+  margin: 0 auto;
+  padding: 0 rem(40px);
+}
+
+.Title {
+  margin-bottom: rem(28px);
+}
+
+.Content {
+  > :not(:last-child) {
+    margin-bottom: rem(17px);
+  }
+}

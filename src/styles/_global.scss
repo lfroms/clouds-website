@@ -1,0 +1,21 @@
+@import 'functions';
+
+$mobile-layout-max-width: 768px;
+$small-layout-max-width: 1000px;
+$medium-layout-max-width: 1216px;
+
+@mixin breakpoint-before($point) {
+  @if $point==medium {
+    @media (max-width: $medium-layout-max-width) {
+      @content;
+    }
+  } @else if $point==small {
+    @media (max-width: $small-layout-max-width) {
+      @content;
+    }
+  } @else if $point==mobile {
+    @media (max-width: $mobile-layout-max-width) {
+      @content;
+    }
+  }
+}

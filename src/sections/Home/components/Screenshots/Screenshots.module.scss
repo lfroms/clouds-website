@@ -1,0 +1,12 @@
+@import '~styles/global';
+
+.Screenshots {
+  > img {
+    width: 518px;
+    max-width: 518px;
+
+    @include breakpoint-before(small) {
+      width: 100%;
+    }
+  }
+}

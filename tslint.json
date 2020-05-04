@@ -1,0 +1,19 @@
+{
+  "extends": ["tslint:recommended", "tslint-config-prettier"],
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts",
+      "coverage/lcov-report/*.js"
+    ]
+  },
+  "rules": {
+    "prefer-const": true,
+    "newline-before-return": true,
+    "no-trailing-whitespace": true,
+    "no-irregular-whitespace": true,
+    "no-consecutive-blank-lines": true,
+    "no-unused-variable": true,
+    "linebreak-style": true
+  }
+}

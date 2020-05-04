@@ -1,0 +1,16 @@
+@import '~styles/global';
+
+.Title {
+  margin: 0;
+  padding: 0;
+
+  &-primary {
+    font-size: rem(72px);
+    font-weight: 800;
+  }
+
+  &-secondary {
+    font-size: rem(31px);
+    font-weight: 600;
+  }
+}

@@ -1,0 +1,34 @@
+@import '~styles/global';
+
+.Text {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'SF Pro Text';
+
+  &-paragraph {
+    font-size: rem(16px);
+    font-weight: 400;
+    opacity: 0.9;
+    letter-spacing: -0.3px;
+    line-height: rem(22px);
+  }
+
+  &-menu {
+    font-size: rem(16px);
+    font-weight: 400;
+  }
+
+  &-caption {
+    font-size: rem(14px);
+    font-weight: 400;
+    opacity: 0.75;
+    line-height: rem(22px);
+  }
+
+  &-footnote {
+    font-size: rem(14px);
+    font-weight: 500;
+    opacity: 0.5;
+  }
+}
