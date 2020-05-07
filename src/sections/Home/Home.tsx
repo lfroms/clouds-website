@@ -18,7 +18,9 @@ export default class Home extends React.PureComponent {
             </div>
 
             <div className={styles.AppStore}>
-              <AppStore />
+              <a href="https://apps.apple.com/ca/app/clouds/id1511249500">
+                <AppStore />
+              </a>
             </div>
 
             <div className={styles.Caption}>
