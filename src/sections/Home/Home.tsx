@@ -1,4 +1,5 @@
 import React from 'react';
+import GitHubButton from 'react-github-btn';
 import { Screenshots } from './components';
 
 import { ReactComponent as AppStore } from './images/app_store.svg';
@@ -32,28 +33,26 @@ export default class Home extends React.PureComponent {
             </div>
 
             <div className={styles.OpenSource}>
-              <a
-                className="github-button"
+              <GitHubButton
                 href="https://github.com/lfroms/clouds"
                 data-color-scheme="no-preference: dark; dark: dark; dark: dark;"
                 data-size="large"
-                data-show-count="true"
                 aria-label="Star lfroms/clouds on GitHub"
+                data-show-count
               >
                 Star
-              </a>
+              </GitHubButton>
 
-              <a
-                className="github-button"
+              <GitHubButton
                 href="https://github.com/lfroms/clouds/issues"
                 data-color-scheme="no-preference: dark; light: dark; dark: dark;"
                 data-icon="octicon-issue-opened"
                 data-size="large"
-                data-show-count="true"
                 aria-label="Issue lfroms/clouds on GitHub"
+                data-show-count
               >
                 Issue
-              </a>
+              </GitHubButton>
             </div>
           </div>
           <div className={styles.ScreenshotsContainer}>
