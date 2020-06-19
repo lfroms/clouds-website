@@ -26,8 +26,34 @@ export default class Home extends React.PureComponent {
             <div className={styles.Caption}>
               <Text type="caption">
                 A fast, reliable and gorgeous weather experience available exclusively to Canadians,
-                with data sourced from Environment and Climate Change Canada.
+                with data sourced from Environment and Climate Change Canada. Best of all, it's open
+                source.
               </Text>
+            </div>
+
+            <div className={styles.OpenSource}>
+              <a
+                className="github-button"
+                href="https://github.com/lfroms/clouds"
+                data-color-scheme="no-preference: dark; dark: dark; dark: dark;"
+                data-size="large"
+                data-show-count="true"
+                aria-label="Star lfroms/clouds on GitHub"
+              >
+                Star
+              </a>
+
+              <a
+                className="github-button"
+                href="https://github.com/lfroms/clouds/issues"
+                data-color-scheme="no-preference: dark; light: dark; dark: dark;"
+                data-icon="octicon-issue-opened"
+                data-size="large"
+                data-show-count="true"
+                aria-label="Issue lfroms/clouds on GitHub"
+              >
+                Issue
+              </a>
             </div>
           </div>
           <div className={styles.ScreenshotsContainer}>

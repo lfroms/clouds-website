@@ -41,3 +41,11 @@
 .AppStore {
   margin-top: rem(27px);
 }
+
+.OpenSource {
+  margin-top: rem(20px);
+
+  > *:not(:last-child) {
+    margin-right: rem(12px);
+  }
+}

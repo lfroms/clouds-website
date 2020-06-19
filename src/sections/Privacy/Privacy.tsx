@@ -28,7 +28,7 @@ export default class Privacy extends React.PureComponent {
             <Text type="paragraph">
               Clouds’ infrastructure keeps logs of requests for weather data up to a maximum 7 days,
               but purely to help diagnose any issues with the infrastructure.{' '}
-              <em>It is impossible to associate this data with any specific user.</em>
+              <em>This data cannot be associated with any specific user.</em>
             </Text>
 
             <Text type="paragraph">
